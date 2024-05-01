@@ -1,5 +1,5 @@
-# Your Project's Title...
-Your project's description...
+# Simple Site for Robert Walters
+Using the boilerplate template create a basic site.
 
 ## Environments
 - Preview: https://main--robertwalters--Yinengfan.hlx.page/
