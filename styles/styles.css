@@ -136,15 +136,15 @@ a.button:any-link, button {
   font-family: var(--body-font-family);
   display: inline-block;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
   border: 2px solid transparent;
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: var(--text-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -153,7 +153,6 @@ a.button:any-link, button {
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
   cursor: pointer;
 }
 
